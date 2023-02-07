@@ -4,7 +4,9 @@
 
 :root{
     --bg-color-cinza: #D9D9D9;
+    --br-color-verde-escuro: #19872C;
     --font-montserrat: 'Montserrat', sans-serif;
+    --bg-color-verde-claro: #3AA64D;
 }
 
 #micro_cabecalho{
@@ -32,6 +34,156 @@
     gap: 5px;
 }
 
+#cabecalho{
+    background-color: var(--br-color-verde-escuro);
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 400px;
+}
 
+.alin_cabecalho{
+    display: flex;
+    gap: 40px;
+}
 
+.alin_cabecalho a{
+    text-decoration: none;
+    color: white;
+    font-family: var(--font-montserrat);
+    font-weight: 500;
+}
+
+#img_modelo_home{
+    width: 600px;
+}
+
+.home{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0px 150px;
+    gap: 50px;
+}
+
+.texto_home h1{
+    font-family: var(--font-montserrat);
+    font-weight: 800;
+    font-size: 30px;
+}
+
+.texto_home p{
+    font-family: var(--font-montserrat);
+    font-weight: 300;
+    font-size: 15px;
+    margin-top: 10px;
+}
+
+.texto_home button{
+    border: none;
+    background-color: var(--br-color-verde-escuro);
+    width: 300px;
+    height: 70px;
+    color: white;
+    font-family: var(--font-montserrat);
+    font-weight: 600;
+    font-size: 20px;
+    border-radius: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.coloracao_verde{
+    color: var(--br-color-verde-escuro);
+}
+
+.alinhamento_home{
+    display: flex;
+    flex-direction: row;
+}
+
+.caixa_home_maior{
+    width: 33.33vw;
+    background-color: var(--bg-color-verde-claro);
+}
+
+.caixa_home{
+    font-family: var(--font-montserrat);
+    color: white;
+}
+
+.caixa_home_central{
+    padding: 60px;
+    background-color: var(--br-color-verde-escuro);
+}
+
+.caixa_home{
+    font-family: var(--font-montserrat);
+    padding: 60px;
+}
+
+.caixa_home h3{
+    font-weight: 600;
+    font-size: 26px;
+    margin-top: 40px;
+}
+
+.caixa_home img{
+    width: 45px;
+}
+
+.caixa_home p{
+    font-weight: 300;
+    font-size: 22px;
+    margin-top: 10px;
+}
+
+.caixa_home button{
+    background-color: var(--bg-color-verde-claro);
+    border: 2px solid white;
+    border-radius: 5px;
+    color: white;
+    width: 180px;
+    height: 50px;
+    font-size: 21px;
+    font-weight: 400;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.caixa_home_central img{
+    width: 45px;
+}
+
+.caixa_home_central p{
+    font-weight: 300;
+    font-size: 22px;
+    margin-top: 10px;
+}
+
+.caixa_home_central button{
+    background-color: var(--bg-color-verde-escuro);
+    border: 2px solid white;
+    border-radius: 5px;
+    color: white;
+    width: 180px;
+    height: 50px;
+    font-size: 21px;
+    font-weight: 400;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.caixa_home_central h3{
+    font-weight: 600;
+    font-size: 26px;
+    margin-top: 40px;
+}
+
+.caixa_home_central{
+    font-family: var(--font-montserrat);
+    color: white;
+}
 /*Home----------------------------------------*/
