@@ -57,6 +57,7 @@
 
 #img_modelo_home{
     width: 600px;
+    margin-bottom: -4px;
 }
 
 .home{
@@ -153,37 +154,11 @@
     margin-top: 20px;
 }
 
-.caixa_home_central img{
-    width: 45px;
+#caixa_home_central{
+    background-color: var(--br-color-verde-escuro);
 }
 
-.caixa_home_central p{
-    font-weight: 300;
-    font-size: 22px;
-    margin-top: 10px;
-}
-
-.caixa_home_central button{
-    background-color: var(--bg-color-verde-escuro);
-    border: 2px solid white;
-    border-radius: 5px;
-    color: white;
-    width: 180px;
-    height: 50px;
-    font-size: 21px;
-    font-weight: 400;
-    cursor: pointer;
-    margin-top: 20px;
-}
-
-.caixa_home_central h3{
-    font-weight: 600;
-    font-size: 26px;
-    margin-top: 40px;
-}
-
-.caixa_home_central{
-    font-family: var(--font-montserrat);
-    color: white;
+#caixa_home_central button{
+    background-color: var(--br-color-verde-escuro);
 }
 /*Home----------------------------------------*/
