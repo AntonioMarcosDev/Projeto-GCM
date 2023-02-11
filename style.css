@@ -35,3 +35,56 @@
 
 
 /*Home----------------------------------------*/
+
+/*Mapa----------------------------------------*/
+#sessao_mapas {
+    background-color: #F7FBFF;
+    padding: 100px 0px;
+    
+}
+
+#mapa {
+    width: 665px;
+    height: 300px;
+    border-radius: 10px;
+}
+
+#alinhamento_mapas {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.texto_mapas{
+    font-family: var(--font-montserrat);
+    width: 400px;
+    text-align: end;
+}
+
+.texto_mapas h2{
+    font-weight: 700;
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.texto_mapas p {
+    font-weight: 400;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.texto_mapas  button {
+    border: none;
+    background-color: #19872C;
+    color: white;
+    font-weight: 600;
+    border-radius: 10px;
+    padding: 20px;
+    cursor: pointer;
+}
+
+
+
+
+/*Mapa----------------------------------------*/
