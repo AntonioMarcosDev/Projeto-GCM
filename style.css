@@ -432,7 +432,7 @@
     align-items: center;
     border-radius: 10px;
     width: 30%;
-    height: 80%;
+    height: 80vh;
     padding: 3rem;
     font-family: var(--font-montserrat);
 }
