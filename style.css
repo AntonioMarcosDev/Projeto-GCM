@@ -1,37 +1,31 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
-/*Home----------------------------------------*/
 
 :root{
     --bg-color-cinza: #D9D9D9;
     --font-montserrat: 'Montserrat', sans-serif;
 }
 
-#micro_cabecalho{
-    height: 40px;
-    background-color: var(--bg-color-cinza);
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-around;
-    font-family: var(--font-montserrat);
-    font-weight: 400;
-    font-size: 14px;
+/*Ingressos-----------------------------------*/
+#ingressos{
+    font-family: var(--font-montserrat);  
+    height: 100vh;
+} 
+.titulo{
+    margin: auto;
+    padding-top: 5%;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 49px;
 }
-
-.alin_micro_cabecalho{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    gap: 20px;
+.titulo h2{
+    text-align: center;
 }
-
-.alin_micro_cabecalho div{
-    display: flex;
-    flex-direction: row;
-    gap: 5px;
+.titulo span{
+    color: #19872C;
 }
-
-
-
-/*Home----------------------------------------*/
+.titulo p{
+    font-weight: 300;
+    font-size: 20px;
+    text-align: center;
+}
