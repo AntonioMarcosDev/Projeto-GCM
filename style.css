@@ -44,6 +44,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    gap: 15%;
 }
 
 .texto h2 {
@@ -63,6 +64,91 @@
     font-family: var(--font-montserrat);
 }
 
+#form-contatos {
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    width: 30%;
+    height: 80%;
+    padding: 3rem;
+    font-family: var(--font-montserrat);
+}
+
+#form-contatos h2 {
+    font-size: 3rem;
+    font-weight: bolder;
+    width: 100%;
+    margin-bottom: 2rem;
+}
+
+#form-contatos h2 span {
+    color: #19872C;
+    text-align: left;
+    align-content: flex-start;
+}
+
+#form-contatos p {
+    font-size: 1.8rem;
+    text-align: left;
+    width: 100%;
+    margin-bottom: 2rem;
+}
+
+.inputs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 50%;
+    width: 100%;
+}
+
+#nome {
+    font-family: var(--font-montserrat);
+    font-size: 1.8rem;
+    height: 60px;
+    width: 96%;
+    border: 2px solid #19872C;
+    border-radius: 10px;
+    padding-left: 1rem;
+}
+
+#email {
+    font-family: var(--font-montserrat);
+    font-size: 1.8rem;
+    height: 60px;
+    width: 96%;
+    border: 2px solid #19872C;
+    border-radius: 10px;
+    padding-left: 1rem;
+}
+
+#mensagem {
+    font-family: var(--font-montserrat);
+    font-size: 1.8rem;
+    width: 96%;
+    border: 2px solid #19872C;
+    border-radius: 10px;
+    padding-left: 1rem;
+    padding-top: 0.5rem;
+    resize: none;
+}
+
+#enviar-btn {
+    border: none;
+    outline: none;
+    margin-top: 2rem;
+    background-color: #19872C;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-family: var(--font-montserrat);
+    font-size: 1.8rem;
+    border-radius: 10px;
+    height: 60px;
+    width: 100%;
+}
 
 
 /*Contatos----------------------------------------*/

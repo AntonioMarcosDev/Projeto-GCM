@@ -35,12 +35,15 @@
                 <p>Entre em contato conosco.</p>
             </div>
             <form id="form-contatos">
-                <h2>Seu contato é muito<br><span>bem-vindo</span></h2>
+                <h2>Seu contato é muito<br><span>bem-vindo</span>!</h2>
                 <p>Nós temos um período para resposta de até 72 horas. Agradecemos o seu contato.</p>
-                <input type="text" placeholder="Nome Completo..." required>
-                <input type="text" placeholder="Email..." required>
-                <textarea id="mensagem" cols="30" rows="5" placeholder="Digite sua Mensagem..." required></textarea>
-                <button>ENVIAR</button>
+                <div class="inputs">
+                    <input id="nome" type="text" placeholder="Nome Completo..." required>
+                    <input id="email" type="text" placeholder="Email..." required>
+                    <textarea id="mensagem" cols="30" rows="5" placeholder="Digite sua Mensagem..." autocomplete="off"
+                        required></textarea>
+                </div>
+                <button id="enviar-btn">ENVIAR</button>
             </form>
         </div>
     </section>
