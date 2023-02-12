@@ -34,7 +34,7 @@
     gap: 5px;
 }
 
-#cabecalho{
+#cabecalho {
     background-color: var(--br-color-verde-escuro);
     height: 100px;
     display: flex;
@@ -43,24 +43,24 @@
     gap: 400px;
 }
 
-.alin_cabecalho{
+.alin_cabecalho {
     display: flex;
     gap: 40px;
 }
 
-.alin_cabecalho a{
+.alin_cabecalho a {
     text-decoration: none;
     color: white;
     font-family: var(--font-montserrat);
     font-weight: 500;
 }
 
-#img_modelo_home{
+#img_modelo_home {
     width: 600px;
     margin-bottom: -4px;
 }
 
-.home{
+.home {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -69,20 +69,20 @@
     gap: 50px;
 }
 
-.texto_home h1{
+.texto_home h1 {
     font-family: var(--font-montserrat);
     font-weight: 800;
     font-size: 30px;
 }
 
-.texto_home p{
+.texto_home p {
     font-family: var(--font-montserrat);
     font-weight: 300;
     font-size: 15px;
     margin-top: 10px;
 }
 
-.texto_home button{
+.texto_home button {
     border: none;
     background-color: var(--br-color-verde-escuro);
     width: 300px;
@@ -96,52 +96,52 @@
     cursor: pointer;
 }
 
-.coloracao_verde{
+.coloracao_verde {
     color: var(--br-color-verde-escuro);
 }
 
-.alinhamento_home{
+.alinhamento_home {
     display: flex;
     flex-direction: row;
 }
 
-.caixa_home_maior{
+.caixa_home_maior {
     width: 33.33vw;
     background-color: var(--bg-color-verde-claro);
 }
 
-.caixa_home{
+.caixa_home {
     font-family: var(--font-montserrat);
     color: white;
 }
 
-.caixa_home_central{
+.caixa_home_central {
     padding: 60px;
     background-color: var(--br-color-verde-escuro);
 }
 
-.caixa_home{
+.caixa_home {
     font-family: var(--font-montserrat);
     padding: 60px;
 }
 
-.caixa_home h3{
+.caixa_home h3 {
     font-weight: 600;
     font-size: 26px;
     margin-top: 40px;
 }
 
-.caixa_home img{
+.caixa_home img {
     width: 45px;
 }
 
-.caixa_home p{
+.caixa_home p {
     font-weight: 300;
     font-size: 22px;
     margin-top: 10px;
 }
 
-.caixa_home button{
+.caixa_home button {
     background-color: var(--bg-color-verde-claro);
     border: 2px solid white;
     border-radius: 5px;
@@ -154,49 +154,56 @@
     margin-top: 20px;
 }
 
-#caixa_home_central{
+#caixa_home_central {
     background-color: var(--br-color-verde-escuro);
 }
 
-#caixa_home_central button{
+#caixa_home_central button {
     background-color: var(--br-color-verde-escuro);
 }
+
 /*Home----------------------------------------*/
 
 /*Ingressos-----------------------------------*/
-#ingressos{
-    font-family: var(--font-montserrat);  
+#ingressos {
+    font-family: var(--font-montserrat);
     height: 100vh;
-} 
-.titulo{
+}
+
+.titulo {
     margin: auto;
     padding-top: 5%;
     font-weight: 700;
     font-size: 40px;
     line-height: 49px;
 }
-.titulo h2{
+
+.titulo h2 {
     text-align: center;
 }
-.titulo span{
+
+.titulo span {
     color: #19872C;
 }
-.titulo p{
+
+.titulo p {
     font-weight: 300;
     font-size: 20px;
     text-align: center;
 }
-.container{
+
+.container {
     background-color: var(--bg-color-cinza);
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    background-color:#FFFFFF;
+    background-color: #FFFFFF;
     padding: 5%;
     gap: 20px;
 }
-.item{
+
+.item {
     display: flex;
     position: relative;
     flex-direction: column;
@@ -207,7 +214,8 @@
     width: 345px;
     filter: drop-shadow(0px 6px 10px var(--bg-color-cinza));
 }
-.item p{
+
+.item p {
     position: absolute;
     left: 7.54%;
     right: 6.96%;
@@ -218,7 +226,8 @@
     line-height: 24px;
     text-align: center;
 }
-.item span{
+
+.item span {
     text-align: center;
     position: absolute;
     left: 43.48%;
@@ -229,12 +238,14 @@
     font-size: 20px;
     line-height: 24px;
 }
-.item img{
+
+.item img {
     position: absolute;
     left: 43.48%;
     top: 21.21%;
     bottom: 65.15%;
 }
+
 /*Ingressos-----------------------------------*/
 
 /*Diferenciais--------------------------------*/
@@ -331,13 +342,14 @@
     font-size: 1.4rem;
     text-align: center;
 }
+
 /*Diferenciais--------------------------------*/
 
 /*Mapa----------------------------------------*/
 #sessao_mapas {
     background-color: #F7FBFF;
     padding: 100px 0px;
-    
+
 }
 
 #mapa {
@@ -353,13 +365,13 @@
     justify-content: space-around;
 }
 
-.texto_mapas{
+.texto_mapas {
     font-family: var(--font-montserrat);
     width: 400px;
     text-align: end;
 }
 
-.texto_mapas h2{
+.texto_mapas h2 {
     font-weight: 700;
     font-size: 40px;
     margin-bottom: 10px;
@@ -371,7 +383,7 @@
     margin-bottom: 10px;
 }
 
-.texto_mapas  button {
+.texto_mapas button {
     border: none;
     background-color: #19872C;
     color: white;
@@ -380,4 +392,123 @@
     padding: 20px;
     cursor: pointer;
 }
+
 /*Mapa----------------------------------------*/
+
+/*Contatos--------------------------------------*/
+.contatos_content {
+    background-image: url(img/crop2\ 1.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5%;
+}
+
+.texto h2 {
+    font-size: 4rem;
+    color: #FFFFFF;
+    font-family: var(--font-montserrat);
+}
+
+.texto span {
+    color: #101010;
+    font-family: var(--font-montserrat);
+}
+
+.texto p {
+    font-size: 2rem;
+    color: #FFFFFF;
+    font-family: var(--font-montserrat);
+}
+
+#form-contatos {
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    width: 30%;
+    height: 80%;
+    padding: 3rem;
+    font-family: var(--font-montserrat);
+}
+
+#form-contatos h2 {
+    font-size: 3rem;
+    font-weight: bolder;
+    width: 100%;
+    margin-bottom: 2rem;
+}
+
+#form-contatos h2 span {
+    color: #19872C;
+    text-align: left;
+    align-content: flex-start;
+}
+
+#form-contatos p {
+    font-size: 1.8rem;
+    text-align: left;
+    width: 100%;
+    margin-bottom: 2rem;
+}
+
+.inputs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 50%;
+    width: 100%;
+}
+
+#nome {
+    font-family: var(--font-montserrat);
+    font-size: 1.8rem;
+    height: 60px;
+    width: 96%;
+    border: 2px solid #19872C;
+    border-radius: 10px;
+    padding-left: 1rem;
+}
+
+#email {
+    font-family: var(--font-montserrat);
+    font-size: 1.8rem;
+    height: 60px;
+    width: 96%;
+    border: 2px solid #19872C;
+    border-radius: 10px;
+    padding-left: 1rem;
+}
+
+#mensagem {
+    font-family: var(--font-montserrat);
+    font-size: 1.8rem;
+    width: 96%;
+    border: 2px solid #19872C;
+    border-radius: 10px;
+    padding-left: 1rem;
+    padding-top: 0.5rem;
+    resize: none;
+}
+
+#enviar-btn {
+    border: none;
+    outline: none;
+    margin-top: 2rem;
+    background-color: #19872C;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-family: var(--font-montserrat);
+    font-size: 1.8rem;
+    border-radius: 10px;
+    height: 60px;
+    width: 100%;
+}
+
+/*Contatos----------------------------------------*/
